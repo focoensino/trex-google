@@ -83,7 +83,7 @@ function draw(){
   }
   
  if(keyDown("space") && trex.y > 161){
-   trex.velocityY = - 9
+   trex.velocityY = - 10
    somPulo.play()
  }
   trex.velocityY = trex.velocityY +0.6
